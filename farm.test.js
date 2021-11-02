@@ -15,6 +15,7 @@ describe("getYieldForPlant", () => {
     };
 
     test("Get yield for plant with no environment factors", () => {
+
         expect(getYieldForPlant(corn)).toBe(30);
     });
 });
