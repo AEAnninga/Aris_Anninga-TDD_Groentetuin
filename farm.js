@@ -11,6 +11,8 @@ const environmentFactors = {
     soil: "clay"
 }
 
+/* ------------------------------------------------------------------------------------- */
+
 const getYieldForPlant = (plant) => {
     if (plant.factors) {
         let factorsArray = Object.keys(environmentFactors)
